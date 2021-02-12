@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+    background: url("bg.jpg") red;
+    background-size: cover;
+    
+}
+h1{
+    color:deeppink;
+    font-size: 50px;
+}
+#container {
+    width: 800px;
+}
+
+.panel {
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: radial-gradient(Pink, blue);
+    color: black;
+    font-size: 20px;
+}
+
+#question {
+    display: flex;
+    height: 100px;
+    margin: 10px 10px;
+}
+
+.panel--option {
+    margin: 5px 10px;
+    width: calc(50% - 20px);
+    height: 50px; 
+}
+
+.panel--option:active {
+    background: radial-gradient(yellow, lime);
+}
+#score {
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+}
+#send_message {
+    border-radius: 10px;
+    background: radial-gradient(PeachPuff, white);
+    height: 50px; 
+}
+.hide {
+    display: none;
+}
